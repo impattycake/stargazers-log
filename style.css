@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.1em;
+}
+
+#repositories-list {
+  display: grid;
+  gap: 20px;
+}
+
+.repository-card {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid #667eea;
+}
+
+.repository-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.repo-title {
+  flex: 1;
+}
+
+.repo-title a {
+  color: #667eea;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.repo-title a:hover {
+  text-decoration: underline;
+}
+
+.repo-owner {
+  color: #666;
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+
+.repo-stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.stat-icon {
+  color: #667eea;
+  font-weight: bold;
+}
+
+.repo-description {
+  color: #333;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.repo-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85em;
+  color: #999;
+}
+
+.language-badge {
+  display: inline-block;
+  background: #f0f0f0;
+  color: #333;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+.starred-date {
+  color: #999;
+}
+
+.loading {
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+}
+
+.error {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "awesome-project",
+    "owner": "developer1",
+    "url": "https://github.com/developer1/awesome-project",
+    "description": "An amazing project with great features",
+    "language": "JavaScript",
+    "stars": 1250,
+    "starredAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "name": "web-framework",
+    "owner": "team-dev",
+    "url": "https://github.com/team-dev/web-framework",
+    "description": "Modern web framework for building applications",
+    "language": "TypeScript",
+    "stars": 2840,
+    "starredAt": "2024-02-20T14:45:00Z"
+  },
+  {
+    "id": 3,
+    "name": "data-tools",
+    "owner": "data-science",
+    "url": "https://github.com/data-science/data-tools",
+    "description": "Tools for data analysis and visualization",
+    "language": "Python",
+    "stars": 892,
+    "starredAt": "2024-03-10T09:15:00Z"
+  },
+  {
+    "id": 4,
+    "name": "cli-utilities",
+    "owner": "devtools",
+    "url": "https://github.com/devtools/cli-utilities",
+    "description": "Command-line utilities for developers",
+    "language": "Go",
+    "stars": 1567,
+    "starredAt": "2024-03-25T16:20:00Z"
+  },
+  {
+    "id": 5,
+    "name": "design-system",
+    "owner": "design-team",
+    "url": "https://github.com/design-team/design-system",
+    "description": "Comprehensive design system and component library",
+    "language": "CSS",
+    "stars": 3102,
+    "starredAt": "2024-04-05T11:00:00Z"
+  }
+]
